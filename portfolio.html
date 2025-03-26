@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivaprasad B N - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+            animation: ani 1.5s ease-in;
+        }
+       
+        @keyframes ani {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    
+        header {
+            text-align: center;
+            background-color: blanchedalmond;
+            color: rgb(6, 1, 1);
+            padding: 20px 0;
+            animation: slideDown 1s ease-in-out;
+            position:static;
+            top: 20px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.8em;
+        }
+        h2{
+            color: cornflowerblue;
+        }
+        h3{
+            color: brown;
+        }
+
+        p {
+            font-size: 1.2em;
+            color: rgb(24, 12, 189);
+        }
+        li{
+            color: rgb(3, 18, 47);
+        }
+        h4{
+            color: burlywood;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 15px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(10px);
+            animation: fadeInUp 1s ease-in-out;
+        }
+
+        .project {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 15px;
+            border-left: 5px solid #2575fc;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .skills{
+            color: deepskyblue;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .project:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: linear-gradient(135deg, #2575fc, #6a11cb);
+            color: white;
+            animation: fadeIn 2s ease-in;
+        }
+        #foot{
+            color: chartreuse;
+        }
+        #conn{
+            color: rgb(233, 237, 13);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: large;
+        }
+        #cou{
+        color:coral;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: larger;
+        font-weight: 200;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Shivaprasad B N</h1>
+        <p id="my">Engineering Student | Web Developer | Java Full Stack Developer  </p>
+        <p>📞 9535060957 | 📧 shivaprasadnandish2003@gmail.com | <a href="https://www.linkedin.com/in/shivaprasad-9a02b9233" target="_blank">LinkedIn</a></p>
+    </header>
+    <div class="container">
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Dedicated engineering student seeking to leverage technical knowledge, problem-solving skills, and project experience to contribute to innovative solutions.</p>
+    </section>
+    
+    <section id="skills">
+        <h2>Skills</h2>
+        <h3>Technical Skills</h3>
+        <ul>
+            <li class="skills">JAVA, C Programming</li>
+            <li class="skills">HTML, CSS, SQL</li>
+            <li class="skills">Currently pursuing Java Full Stack at Jspiders, Mysore</li>
+        </ul>
+        <h3>Soft Skills</h3>
+        <ul>
+            <li class="skills" >Communication and Collaboration</li>
+            <li class="skills">Teamwork and Leadership</li>
+            <li class="skills">Time Management</li>
+            <li class="skills">Adaptability and Eagerness to Learn</li>
+        </ul>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>AI-Based Video Processing Application</h3>
+            <p>Created a system to summarize videos and generate real-time English captions.</p>
+            <p><strong>Technologies:</strong> GPT-based NLP, Whisper, FFmpeg, Flask, TensorFlow/PyTorch</p>
+        </div>
+        <div class="project">
+            <h3>Real-Time Object Detection using YOLO</h3>
+            <p>Developed a system for visually impaired individuals that detects objects and provides audio feedback.</p>
+            <p><strong>Technologies:</strong> YOLOv5, OpenCV, PyTorch, pyttsx3</p>
+        </div>
+    </section>
+    
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <ul>
+            <li id="cou">Introduction to Web Development - Coursera</></li>
+            <li id="cou">Cloud Computing (IIT Kharagpur) -NPTEL </li>
+            <li id="cou">Design and Analysis of Algorithms (IIT Madras) - NPTEL</li>
+            <li id="cou">C for Beginners - Great Learning</li>
+            <li id="cou">Practical HTML for No-Coders -LinkedIn Learning</li>
+        </ul>
+    </section>
+    
+    <section id="education">
+        <h2>Education</h2>
+        <p><strong>ATME College of Engineering</strong> - CGPA: 8.5 (2021-2025)</p>
+        <p>Bachelor of Engineering, Computer Science and Design | Mysore, Karnataka</p>
+    </section>
+</div>
+    
+    <footer>
+        <p id="conn">Connect with me:</p>
+        <h4 id="foot">9535060957</h4>
+        <h4 id="foot">shivaprasadnandish2003</h4>
+        <a href="https://github.com/" target="_blank" id="foot">GitHub</a>
+        <a href="https://www.linkedin.com/in/shivaprasad-9a02b9233" target="_blank" id="foot">LinkedIn</a>
+    </footer>
+</body>
+</html>
